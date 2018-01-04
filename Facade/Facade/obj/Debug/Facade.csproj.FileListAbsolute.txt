@@ -1,0 +1,6 @@
+D:\Projects\Facade\Facade\bin\Debug\Facade.exe.config
+D:\Projects\Facade\Facade\bin\Debug\Facade.exe
+D:\Projects\Facade\Facade\bin\Debug\Facade.pdb
+D:\Projects\Facade\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
+D:\Projects\Facade\Facade\obj\Debug\Facade.exe
+D:\Projects\Facade\Facade\obj\Debug\Facade.pdb
