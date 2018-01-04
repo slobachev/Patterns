@@ -1,0 +1,311 @@
+Opened connection at 4/27/2017 7:28:39 PM +03:00
+select cast(serverproperty('EngineEdition') as int)
+-- Executing at 4/27/2017 7:28:39 PM +03:00
+-- Completed in 44 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:40 PM +03:00
+Opened connection at 4/27/2017 7:28:41 PM +03:00
+IF db_id(N'AutoLot') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'AutoLot'
+-- Executing at 4/27/2017 7:28:41 PM +03:00
+-- Completed in 660 ms with result: 1
+
+Closed connection at 4/27/2017 7:28:41 PM +03:00
+Opened connection at 4/27/2017 7:28:41 PM +03:00
+
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.CreditRisks','dbo.Customers','dbo.Orders','dbo.Inventory')
+    OR t.TABLE_NAME = 'EdmMetadata'
+-- Executing at 4/27/2017 7:28:41 PM +03:00
+-- Completed in 547 ms with result: 4
+
+Closed connection at 4/27/2017 7:28:42 PM +03:00
+Opened connection at 4/27/2017 7:28:42 PM +03:00
+SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+-- p__linq__0: 'AutoLotDAL.EF.AutoLotEntities' (Type = String, Size = 4000)
+-- Executing at 4/27/2017 7:28:43 PM +03:00
+-- Completed in 35 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:43 PM +03:00
+Opened connection at 4/27/2017 7:28:43 PM +03:00
+SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+-- p__linq__0: 'AutoLotDAL.EF.AutoLotEntities' (Type = String, Size = 4000)
+-- Executing at 4/27/2017 7:28:43 PM +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:43 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+Started transaction at 4/27/2017 7:28:44 PM +03:00
+INSERT [dbo].[Inventory]([Make], [Color], [PetName])
+VALUES (@0, @1, @2)
+SELECT [CarId], [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = scope_identity()
+-- @0: 'Yugo' (Type = String, Size = 50)
+-- @1: 'Brown' (Type = String, Size = 50)
+-- @2: 'Brownie' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 4 ms with result: SqlDataReader
+
+Committed transaction at 4/27/2017 7:28:44 PM +03:00
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+Started transaction at 4/27/2017 7:28:44 PM +03:00
+INSERT [dbo].[Inventory]([Make], [Color], [PetName])
+VALUES (@0, @1, @2)
+SELECT [CarId], [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = scope_identity()
+-- @0: 'SmartCar' (Type = String, Size = 50)
+-- @1: 'Brown' (Type = String, Size = 50)
+-- @2: 'Shorty' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Committed transaction at 4/27/2017 7:28:44 PM +03:00
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+Started transaction at 4/27/2017 7:28:44 PM +03:00
+INSERT [dbo].[Inventory]([Make], [Color], [PetName])
+VALUES (@0, @1, @2)
+SELECT [CarId], [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = scope_identity()
+-- @0: 'Yugo' (Type = String, Size = 50)
+-- @1: 'Brown' (Type = String, Size = 50)
+-- @2: 'Brownie' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+INSERT [dbo].[Inventory]([Make], [Color], [PetName])
+VALUES (@0, @1, @2)
+SELECT [CarId], [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = scope_identity()
+-- @0: 'SmartCar' (Type = String, Size = 50)
+-- @1: 'Brown' (Type = String, Size = 50)
+-- @2: 'Shorty' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Committed transaction at 4/27/2017 7:28:44 PM +03:00
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[CarId] AS [CarId], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[OrderId] AS [OrderId], 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[CarId] AS [CarId], 
+    [Extent1].[Timestamp] AS [Timestamp], 
+    [Extent2].[CarId] AS [CarId1], 
+    [Extent2].[Make] AS [Make], 
+    [Extent2].[Color] AS [Color], 
+    [Extent2].[PetName] AS [PetName], 
+    [Extent2].[Timestamp] AS [Timestamp1], 
+    [Extent3].[CustomerId] AS [CustomerId1], 
+    [Extent3].[FirstName] AS [FirstName], 
+    [Extent3].[LastName] AS [LastName], 
+    [Extent3].[Timestamp] AS [Timestamp2]
+    FROM   [dbo].[Orders] AS [Extent1]
+    INNER JOIN [dbo].[Inventory] AS [Extent2] ON [Extent1].[CarId] = [Extent2].[CarId]
+    INNER JOIN [dbo].[Customers] AS [Extent3] ON [Extent1].[CustomerId] = [Extent3].[CustomerId]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 6 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Customers] AS [Extent1]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[CreditRisks] AS [Extent1]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 14 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT TOP (2) 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Customers] AS [Extent1]
+    WHERE [Extent1].[CustomerId] = @p0
+-- p0: '6' (Type = Int32)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+Started transaction at 4/27/2017 7:28:44 PM +03:00
+DELETE [dbo].[Customers]
+WHERE (([CustomerId] = @0) AND ([Timestamp] = @1))
+-- @0: '6' (Type = Int32)
+-- @1: 'System.Byte[]' (Type = Binary, Size = 8)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 6 ms with result: 1
+
+INSERT [dbo].[CreditRisks]([FirstName], [LastName])
+VALUES (@0, @1)
+SELECT [CustomerId], [Timestamp]
+FROM [dbo].[CreditRisks]
+WHERE @@ROWCOUNT > 0 AND [CustomerId] = scope_identity()
+-- @0: 'Aloha' (Type = String, Size = 50)
+-- @1: 'Dance' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 19 ms with result: SqlDataReader
+
+INSERT [dbo].[CreditRisks]([FirstName], [LastName])
+VALUES (@0, @1)
+SELECT [CustomerId], [Timestamp]
+FROM [dbo].[CreditRisks]
+WHERE @@ROWCOUNT > 0 AND [CustomerId] = scope_identity()
+-- @0: 'Aloha' (Type = String, Size = 50)
+-- @1: 'Dance' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Failed in 3 ms with error: Cannot insert duplicate key row in object 'dbo.CreditRisks' with unique index 'IDX_CreditRisk_Name'. The duplicate key value is (Dance, Aloha).
+The statement has been terminated.
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Customers] AS [Extent1]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+SELECT 
+    [Extent1].[CustomerId] AS [CustomerId], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[CreditRisks] AS [Extent1]
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:44 PM +03:00
+Started transaction at 4/27/2017 7:28:44 PM +03:00
+INSERT [dbo].[Inventory]([Make], [Color], [PetName])
+VALUES (@0, @1, @2)
+SELECT [CarId], [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = scope_identity()
+-- @0: 'Boshi' (Type = String, Size = 50)
+-- @1: 'Red' (Type = String, Size = 50)
+-- @2: 'Cake' (Type = String, Size = 50)
+-- Executing at 4/27/2017 7:28:44 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Committed transaction at 4/27/2017 7:28:44 PM +03:00
+Closed connection at 4/27/2017 7:28:44 PM +03:00
+Opened connection at 4/27/2017 7:28:45 PM +03:00
+SELECT TOP (2) 
+    [Extent1].[CarId] AS [CarId], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+    WHERE [Extent1].[CarId] = @p0
+-- p0: '40' (Type = Int32)
+-- Executing at 4/27/2017 7:28:45 PM +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:45 PM +03:00
+Opened connection at 4/27/2017 7:28:45 PM +03:00
+SELECT TOP (2) 
+    [Extent1].[CarId] AS [CarId], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+    WHERE [Extent1].[CarId] = @p0
+-- p0: '40' (Type = Int32)
+-- Executing at 4/27/2017 7:28:45 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:45 PM +03:00
+Opened connection at 4/27/2017 7:28:45 PM +03:00
+Started transaction at 4/27/2017 7:28:45 PM +03:00
+UPDATE [dbo].[Inventory]
+SET [Make] = @0, [Color] = @1, [PetName] = @2
+WHERE (([CarId] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = @3
+-- @0: 'Boshi' (Type = String, Size = 50)
+-- @1: 'Red' (Type = String, Size = 50)
+-- @2: 'Dread' (Type = String, Size = 50)
+-- @3: '40' (Type = Int32)
+-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+-- Executing at 4/27/2017 7:28:45 PM +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Committed transaction at 4/27/2017 7:28:45 PM +03:00
+Closed connection at 4/27/2017 7:28:45 PM +03:00
+Opened connection at 4/27/2017 7:28:45 PM +03:00
+Started transaction at 4/27/2017 7:28:45 PM +03:00
+UPDATE [dbo].[Inventory]
+SET [Make] = @0, [Color] = @1, [PetName] = @2
+WHERE (([CarId] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [CarId] = @3
+-- @0: 'Boshi' (Type = String, Size = 50)
+-- @1: 'Red' (Type = String, Size = 50)
+-- @2: 'Mad' (Type = String, Size = 50)
+-- @3: '40' (Type = Int32)
+-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+-- Executing at 4/27/2017 7:28:45 PM +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 4/27/2017 7:28:45 PM +03:00
