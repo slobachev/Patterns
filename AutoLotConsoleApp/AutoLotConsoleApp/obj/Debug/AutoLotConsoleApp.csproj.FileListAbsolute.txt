@@ -1,0 +1,10 @@
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\AutoLotConsoleApp.exe.config
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\AutoLotConsoleApp.exe
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\AutoLotConsoleApp.pdb
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\EntityFramework.dll
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\EntityFramework.xml
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\obj\Debug\AutoLotConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\obj\Debug\AutoLotConsoleApp.exe
+c:\users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotConsoleApp\AutoLotConsoleApp\obj\Debug\AutoLotConsoleApp.pdb
