@@ -1,0 +1,28 @@
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe.config
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.pdb
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.pdb
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll.config
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.csprojResolveAssemblyReference.cache
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.exe
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe.config
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll.config
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.exe
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.pdb
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe.config
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.exe
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotCUIClient.pdb
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.pdb
+D:\Projects\AutoLotDAL\AutoLotCUIClient\bin\Debug\AutoLotDAL.dll.config
+D:\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.csprojResolveAssemblyReference.cache
+D:\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.csproj.CoreCompileInputs.cache
+D:\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.exe
+D:\Projects\AutoLotDAL\AutoLotCUIClient\obj\Debug\AutoLotCUIClient.pdb

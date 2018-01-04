@@ -1,0 +1,11 @@
+C:\Users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.exe.config
+C:\Users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.exe
+C:\Users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.pdb
+C:\Users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\obj\Debug\FillDataSetUsingSqlDataAdapter.exe
+C:\Users\seruy\onedrive\документи\visual studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\obj\Debug\FillDataSetUsingSqlDataAdapter.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.exe.config
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.exe
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\bin\Debug\FillDataSetUsingSqlDataAdapter.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\obj\Debug\FillDataSetUsingSqlDataAdapter.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\obj\Debug\FillDataSetUsingSqlDataAdapter.exe
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\FillDataSetUsingSqlDataAdapter\obj\Debug\FillDataSetUsingSqlDataAdapter.pdb

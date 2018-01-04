@@ -1,0 +1,20 @@
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll.config
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll.config
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
+C:\Users\user\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csprojResolveAssemblyReference.cache
+C:\Users\seruy\OneDrive\Документи\Visual Studio 2017\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+D:\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll.config
+D:\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+D:\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+D:\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csprojResolveAssemblyReference.cache
+D:\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+D:\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+D:\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
